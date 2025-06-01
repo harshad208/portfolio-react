@@ -17,7 +17,7 @@ export default function Navbar() {
             <a href="#hero" className="hover:text-[#DDA15E] transition-colors duration-200">Home</a>
           </li>
           <li>
-            <a href="#medium-articles" className="hover:text-[#DDA15E] transition-colors duration-200">Posts</a>
+            <a href="#medium-articles" className="hover:text-[#DDA15E] transition-colors duration-200">Blog</a>
           </li>
           <li>
             <a href="#projects" className="hover:text-[#DDA15E] transition-colors duration-200">Projects</a>
