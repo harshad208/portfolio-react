@@ -49,6 +49,27 @@ export default function Projects() {
       videoSrc: "/videos/llm_doc.webm",
       thumbnail: "/videos/llm.png",
     },
+    {
+      title: "Smart Inventory & Order Management System",
+      description:
+        "A real-time inventory management API built with FastAPI and PostgreSQL that tracks stock levels, purchase orders, supplier data, and inventory movements. It showcases modern backend design and efficient use of relational databases.",
+      tech: [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "Alembic",
+      "Pydantic",
+      "Docker",
+      "Docker Compose",
+      "Uvicorn",
+      "Git",
+      "MyPy"
+    ],
+      link: "https://github.com/harshad208/smart_inventory.git",
+      videoSrc: "/videos/database.webm",
+      thumbnail: "/videos/database.jpg",
+    },
   ];
 
   const [modalVideo, setModalVideo] = useState(null);
