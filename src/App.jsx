@@ -1,28 +1,20 @@
-import Navbar from './components/Navbar';
-import './index.css';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
 import Intro from './components/Intro';
+import Projects from './components/Projects';
 import MediumArticles from './components/MediumArticles';
-
+import Section from './components/Section'; // We'll create this reusable component
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <main className="pt-20 px-6 max-w-5xl mx-auto">
-        <Intro />
-
-        <MediumArticles />
-        
-        <br/>
-
-        <Projects />
-        
-        <br/>
-        
-        <Contact />
-
+    // The main container centers the content
+    <div className="max-w-4xl mx-auto px-6">
+      <Intro />
+      <main>
+        <Section title="Projects" id="projects">
+          <Projects />
+        </Section>
+        <Section title="Blog" id="blog">
+          <MediumArticles />
+        </Section>
       </main>
     </div>
   );

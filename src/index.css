@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+/* 
 html {
   scroll-behavior: smooth;
 }
@@ -7,4 +7,23 @@ html {
 body {
   @apply bg-[#FEFAE0] text-[#283618] font-sans;
 
+} */
+
+
+body {
+  background-color: #111111;
+  color: #EAEAEA;
+  font-family: 'Roboto', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* For smooth scrolling when clicking nav links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Target all headings and apply the heading font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
 }
