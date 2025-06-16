@@ -70,6 +70,23 @@ export default function Projects() {
       videoSrc: "/videos/database.webm",
       thumbnail: "/videos/database.jpg",
     },
+    {
+  "title": "QueryDocs",
+  "description": "A full-stack Document Q&A system with a FastAPI backend and Next.js frontend. Documents are processed asynchronously, stored in a vector database, and queried using natural language. The interface features a side-by-side chat and document preview, enabling efficient document exploration and semantic search.",
+  "tech": [
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Python",
+    "FastAPI",
+    "OpenAI API",
+    "ChromaDB"
+  ],
+  "link": "https://github.com/harshad208/doc_qna",
+  "videoSrc": "/videos/docqna.webm",
+  "thumbnail": "/videos/QNA.png"
+},
   ];
 
   const [modalVideo, setModalVideo] = useState(null);
