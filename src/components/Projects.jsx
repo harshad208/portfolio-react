@@ -5,7 +5,7 @@ import { Github, PlayCircle } from "lucide-react";
 
 const projectData = [
   {
-    year: 2024,
+    year: 2025,
     title: "QueryDocs",
     description: "A full-stack Document Q&A system with a FastAPI backend and Next.js frontend. Documents are processed asynchronously, stored in a vector database, and queried using natural language.",
     tech: ["Next.js", "FastAPI", "OpenAI", "ChromaDB"],
@@ -13,7 +13,7 @@ const projectData = [
     videoSrc: "/videos/docqna.webm",
   },
   {
-    year: 2023,
+    year: 2025,
     title: "DocuMind: LLM Semantic Search API",
     description: "A semantic document search API that lets users upload files (PDF, DOCX, TXT), then query them using natural language. It retrieves relevant text and optionally generates answers using an LLM.",
     tech: ["Python", "FastAPI", "ChromaDB", "Llama.cpp"],
@@ -33,7 +33,7 @@ const projectData = [
     title: "Wiki-Search",
     description: "A responsive web app that leverages the Wikipedia API to deliver real-time search suggestions and article previews. Built with vanilla JavaScript.",
     tech: ["HTML", "CSS", "JS", "Wikipedia API"],
-    link: "https://wikipedia-search-engine-208.netlify.app",
+    link: "https://github.com/harshad208/wiki-search",
     videoSrc: "/videos/wiki.webm",
   },
 ];
