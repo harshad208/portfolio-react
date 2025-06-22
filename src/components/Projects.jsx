@@ -5,6 +5,31 @@ import { Github, PlayCircle } from "lucide-react";
 
 const projectData = [
   {
+  year: 2025,
+  title: "Geo-AI Visualizer",
+  description: "Geo-AI Visualizer is an interactive map-based application that lets users ask natural language questions about locations (e.g., \"Startups in Mumbai\") and visualizes the answers. It combines local AI models, web scraping, and geospatial tools to deliver real-time, location-aware insights.",
+  tech: [
+  "Next.js",
+  "FastAPI",
+  "Tailwind CSS",
+  "shadcn/ui",
+  "React-Leaflet",
+  "spaCy",
+  "Sentence-Transformers",
+  "Ollama (Phi-3 Mini)",
+  "OpenAI",
+  "FAISS",
+  "ChromaDB",
+  "geopy + Nominatim",
+  "DuckDuckGo Search API",
+  "BeautifulSoup4",
+  "SQLite"
+]
+,
+  link: "https://github.com/harshad208/geo-ai-visualizer.git",
+  videoSrc: "/videos/geoai.webm"
+},
+  {
     year: 2025,
     title: "QueryDocs",
     description: "A full-stack Document Q&A system with a FastAPI backend and Next.js frontend. Documents are processed asynchronously, stored in a vector database, and queried using natural language.",
