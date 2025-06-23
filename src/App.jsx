@@ -1,14 +1,21 @@
 import Intro from './components/Intro';
 import Projects from './components/Projects';
 import MediumArticles from './components/MediumArticles';
-import Section from './components/Section'; // We'll create this reusable component
+import Skills from './components/Skills';
+import Section from './components/Section'; 
+import Experience from './components/Experience'; 
 
 function App() {
   return (
-    // The main container centers the content
     <div className="max-w-4xl mx-auto px-6">
       <Intro />
       <main>
+        <Section title="Skills & Tooling" id="skills">
+          <Skills />
+        </Section>        
+        <Section title="Experience & Education" id="experience">
+          <Experience />
+        </Section>
         <Section title="Projects" id="projects">
           <Projects />
         </Section>
