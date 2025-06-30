@@ -1,6 +1,4 @@
-// src/components/Projects.jsx
-
-import { useState } from "react"; // useEffect is no longer needed
+import { useState } from "react"; 
 import { Github, PlayCircle } from "lucide-react";
 
 const projectData = [
@@ -64,16 +62,14 @@ const projectData = [
 ];
 
 export default function Projects() {
-  // We only need state for the video modal now
-  const [modalVideo, setModalVideo] = useState(null);
 
-  // The useEffect and states for hover have been removed.
+  const [modalVideo, setModalVideo] = useState(null);
 
   return (
     <>
       <div className="border-t border-gray-800">
         {projectData.map((project) => (
-          // The onMouseEnter and onMouseLeave events have been removed from this div
+
           <div
             key={project.title}
             className="group grid grid-cols-1 md:grid-cols-8 gap-x-4 gap-y-2 border-b border-gray-800 py-8 transition-colors duration-300 hover:bg-gray-500/5"

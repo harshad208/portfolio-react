@@ -1,5 +1,3 @@
-// src/components/skillsData.jsx
-
 import {
   SiPython, SiSqlite, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiDjango,
   SiFlask, SiFastapi, SiReact, SiNextdotjs, SiPandas, SiNumpy, SiScikitlearn, SiTensorflow, SiKeras,

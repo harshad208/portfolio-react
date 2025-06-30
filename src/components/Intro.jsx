@@ -1,4 +1,3 @@
-// src/components/Intro.jsx
 import { MapPin, Mail, Github, Linkedin, Check } from "lucide-react";
 
 export default function Intro() {
@@ -10,7 +9,7 @@ export default function Intro() {
         <div className="md:col-span-1 flex justify-center">
           <div className="relative w-40 h-40 md:w-48 md:h-48">
             <img
-              src="/videos/photo.jpg" // Your photo from the /public folder
+              src="/videos/photo.jpg" 
               alt="Harshad Yadav"
               className="w-full h-full rounded-full object-cover border-4 border-gray-700 shadow-lg"
             />

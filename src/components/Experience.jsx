@@ -1,5 +1,3 @@
-// src/components/Experience.jsx
-
 import { workExperience, educationHistory } from './experienceData';
 
 export default function Experience() {

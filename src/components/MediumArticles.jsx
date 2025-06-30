@@ -1,8 +1,5 @@
-// src/components/MediumArticles.jsx
-
 import { ArrowUpRight } from "lucide-react";
 
-// Add a 'date' property to each article for the new layout.
 const articles = [
   {
     date: "June 2025",

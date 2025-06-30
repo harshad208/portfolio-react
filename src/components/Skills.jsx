@@ -1,6 +1,4 @@
-// src/components/Skills.jsx
-
-import { skillsData } from './skillsData'; // Import the data
+import { skillsData } from './skillsData'; 
 
 export default function Skills() {
   return (

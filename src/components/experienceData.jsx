@@ -1,12 +1,9 @@
-// src/components/experienceData.jsx
-
 export const workExperience = [
   {
     role: "Python Developer",
     company: "Nextgen Clearing Pvt Ltd",
     location: "Mumbai, India",
     period: "Nov 2024 - Present",
-    // Replaced 'projects' with a 'responsibilities' array of impactful statements
     responsibilities: [
   "Built a high-performance data pipeline with PySpark, Kafka, and MongoDB to speed up processing and improve scalability.",
   "Optimized SIM-to-IMSI mapping using Apache Pinot and NiFi, increasing reliability and throughput across AWS and OSS sources."
@@ -28,7 +25,6 @@ export const workExperience = [
   }
 ];
 
-// No changes needed for education history, it's already well-structured.
 export const educationHistory = [
   {
     degree: "BE in Computer Engineering",
