@@ -37,6 +37,14 @@ const projectData = [
   },
   {
     year: 2025,
+    title: "RAG Assistant",
+    description: "A self-hosted Document Q&A system with an interactive Streamlit UI. Documents are processed on-demand, stored in a local ChromaDB vector store, and queried using open-source LLMs powered by Ollama.",
+    tech: ["Streamlit", "LangChain", "Ollama", "ChromaDB", "Sentence-Transformers"],
+    link: "https://github.com/harshad208/rag_assistant.git",
+    videoSrc: "/videos/rag-assistant.webm"
+  },
+  {
+    year: 2025,
     title: "DocuMind: LLM Semantic Search API",
     description: "A semantic document search API that lets users upload files (PDF, DOCX, TXT), then query them using natural language. It retrieves relevant text and optionally generates answers using an LLM.",
     tech: ["Python", "FastAPI", "ChromaDB", "Llama.cpp"],
