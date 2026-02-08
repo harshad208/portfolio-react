@@ -1,14 +1,26 @@
 export const workExperience = [
   {
+    role: "Software Engineer Ⅱ",
+    company: "JPMorgan Chase & Co",
+    location: "Mumbai, India",
+    period: "Dec 2025 - Present",
+    responsibilities: [
+      "Built a scalable investment-flow orchestration platform using Django, Airflow, and RabbitMQ to improve reliability.",
+      "Automated account and capital movement workflows with Airflow DAGs, reducing manual intervention and operational risk",
+      "Implemented event-driven financial processing using RabbitMQ, improving throughput and fault tolerance across services.",
+      "Designed end-to-end investment reconciliation pipelines, enabling portfolio managers to track inflows and outflows accurately.",
+      "Optimized workflow scheduling and retries in Airflow, increasing consistency of high-volume financial data processing.",
+    ]
+  },
+  {
     role: "Python Developer",
     company: "Nextgen Clearing Pvt Ltd",
     location: "Mumbai, India",
-    period: "Nov 2024 - Present",
+    period: "Nov 2024 - Nov 2025",
     responsibilities: [
-  "Built a high-performance data pipeline with PySpark, Kafka, and MongoDB to speed up processing and improve scalability.",
-  "Optimized SIM-to-IMSI mapping using Apache Pinot and NiFi, increasing reliability and throughput across AWS and OSS sources."
-]
-
+      "Built a high-performance data pipeline with PySpark, Kafka, and MongoDB to speed up processing and improve scalability.",
+      "Optimized SIM-to-IMSI mapping using Apache Pinot and NiFi, increasing reliability and throughput across AWS and OSS sources."
+    ]
   },
   {
     role: "Full Stack Developer",
@@ -16,12 +28,11 @@ export const workExperience = [
     location: "Mumbai, India",
     period: "Jun 2021 - Oct 2024",
     responsibilities:[
-  "Built a financial anomaly detection system using RabbitMQ and MySQL to enhance risk accuracy and efficiency.",
-  "Automated salary slip extraction to speed up payroll analysis and improve financial decision-making.",
-  "Developed a BERT-based invoice classifier with MLflow, cutting manual processing and boosting accuracy.",
-  "Implemented a KYC validation bot with 98% accuracy, streamlining onboarding and reducing verification time."
-]
-
+      "Built a financial anomaly detection system using RabbitMQ and MySQL to enhance risk accuracy and efficiency.",
+      "Automated salary slip extraction to speed up payroll analysis and improve financial decision-making.",
+      "Developed a BERT-based invoice classifier with MLflow, cutting manual processing and boosting accuracy.",
+      "Implemented a KYC validation bot with 98% accuracy, streamlining onboarding and reducing verification time."
+    ]
   }
 ];
 
