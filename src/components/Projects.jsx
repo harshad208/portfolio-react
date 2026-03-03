@@ -3,6 +3,40 @@ import { Github, PlayCircle } from "lucide-react";
 
 const projectData = [
   {
+    year: 2026,
+    title: "Mumbai Street Food 3D",
+    description: "Mumbai Street Food 3D is an interactive web-based 3D experience that showcases street food stalls using real-time rendering. Built with React and React Three Fiber, the project integrates GLB models, dynamic lighting, custom GLSL shader effects like steam, and smooth camera controls to create an immersive browser-based food scene.",
+    tech: [
+      "React",
+      "Vite",
+      "Three.js",
+      "React Three Fiber",
+      "@react-three/drei",
+      "GLTF/GLB",
+      "GLSL Shaders",
+      "GSAP",
+      "Zustand",
+      "Tailwind CSS"
+    ],
+    link: "https://github.com/harshad208/street-food-3d",
+    videoSrc: "/videos/street_food.mov"
+  },
+  {
+    year: 2026,
+    title: "Core-Sight",
+    description: "Core-Sight is an interactive WebGL-based CPU architecture visualizer that simulates instruction flow, signal propagation, and component interaction inside a processor. Built with Three.js and vanilla JavaScript, the project provides educational insights into ALU operations, registers, cache behavior, and data buses using real-time 3D rendering and custom shader effects.",
+    tech: [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "GLSL Shaders",
+      "HTML",
+      "CSS"
+    ],
+    link: "https://github.com/harshad208/core-sight",
+    videoSrc: "/videos/cpu_core.mov"
+  },
+  {
   year: 2025,
   title: "Geo-AI Visualizer",
   description: "Geo-AI Visualizer is an interactive map-based application that lets users ask natural language questions about locations (e.g., \"Startups in Mumbai\") and visualizes the answers. It combines local AI models, web scraping, and geospatial tools to deliver real-time, location-aware insights.",
@@ -66,7 +100,7 @@ const projectData = [
     tech: ["HTML", "CSS", "JS", "Wikipedia API"],
     link: "https://github.com/harshad208/wiki-search",
     videoSrc: "/videos/wiki.webm",
-  },
+  }
 ];
 
 export default function Projects() {
